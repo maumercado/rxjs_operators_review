@@ -1,0 +1,30 @@
+{
+  "name": "rxjs_ops_review",
+  "version": "1.0.0",
+  "description": "RxJs Tutorial",
+  "main": "index.js",
+  "scripts": {
+    "babel": "babel-node",
+    "server": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rxjs",
+    "observables",
+    "operators"
+  ],
+  "author": "Mauricio Mercado",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "webpack": "^4.12.1",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "rxjs": "^6.2.1"
+  }
+}
