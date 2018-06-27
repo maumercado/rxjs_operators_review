@@ -28,7 +28,7 @@
         "dot-location": ["error", "property"],
         "dot-notation": "error",
         "func-call-spacing": "error",
-        "generator-star-spacing": "error",
+        "generator-star-spacing": ["error", { "before": true, "after": true }],
         "indent": [
             "error",
             4,
