@@ -4,7 +4,8 @@ import path from "path";
 export default {
     mode: "development",
     entry: {
-        fromEvent: "./fromEvent/index.js"
+        fromEvent: "./fromEvent/index.js",
+        combineLatest: "./combineLatest/index.js"
     },
     output: {
         path: path.resolve(__dirname),
